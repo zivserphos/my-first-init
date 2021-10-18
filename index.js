@@ -6,12 +6,10 @@ function timeToNow(date){
 }
 
 function timeFromAToB(date1 , date2) {
-    return moment(date1).to(date2)
+    return moment(date1).to(date2);
 }
 
 function daysInMonth(date){
     return moment(date).daysInMonth()
 }
 
-
-console.log(daysInMonth("2021-10"))

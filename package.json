@@ -1,0 +1,26 @@
+{
+  "name": "my-first-init",
+  "version": "6.6.1",
+  "description": "its my first time working with git in cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zivserphos/my-first-init.git"
+  },
+  "author": "Ziv Serphos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zivserphos/my-first-init/issues"
+  },
+  "homepage": "https://github.com/zivserphos/my-first-init#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
